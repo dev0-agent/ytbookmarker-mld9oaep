@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "commitMessage": "feat: implement data store and schemas
+
+- Added Zod schemas for Video and Note in src/types/schema.ts
+- Implemented Zustand store with persistence in src/store/useStore.ts
+- Added actions for adding, updating, and deleting videos and notes",
+  "prTitle": "feat: implement data store and schemas",
+  "prBody": "This PR implements the core data structure for the application.
+
+Changes:
+- **Schemas**: Defined Zod schemas for `Video` and `Note` in `src/types/schema.ts`.
+- **Store**: Created a Zustand store in `src/store/useStore.ts` that persists to `localStorage`.
+- **Actions**: Added utility functions to the store for managing videos and notes (add, update, delete).",
+  "notes": "Verified types with `bunx tsc --noEmit`. The store handles data validation using the defined Zod schemas."
+}
