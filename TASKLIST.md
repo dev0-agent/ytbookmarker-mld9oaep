@@ -7,7 +7,7 @@ It is automatically updated by dev0 as tasks are completed.
 
 ## Phase 1
 
-- [ ] ⏳ **Implement Data Store and Schemas**
+- [x] ✅ **Implement Data Store and Schemas**
   Create the core data structure for the application. Define Zod schemas for `Video` (id, youtubeId, title, url, createdAt, tags) and `Note` (id, videoId, content, timestamp). Implement a Zustand store (or React Context) that persists this state to `localStorage`. Include utility functions to add, update, and remove items.
 
 - [ ] ⏳ **Create App Layout and Navigation**
