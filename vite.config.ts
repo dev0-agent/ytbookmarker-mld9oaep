@@ -13,6 +13,6 @@ export default defineConfig({
   },
   server: {
     host: true, // Allow external connections
-    allowedHosts: ["all"], // Allow all hosts (prevents blocking from proxy/iframe hosts)
+    allowedHosts: true, // Allow all hosts (prevents blocking from proxy/iframe hosts)
   },
 })
